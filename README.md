@@ -45,8 +45,8 @@ This system processes website interaction logs and search queries to automatical
 
 ## 📊 **Methodology**
 The system follows a modular NLP and ML pipeline:
-Data Preparation: Loading datasets (website_traffic.csv, test_data.csv) using Pandas.
-Preprocessing: Lowercasing, tokenization, and removing non-essential stopwords while preserving signal words like "buy" or "price".
-Vectorization: Transforming cleaned text into feature matrices using TfidfVectorizer.
-Classification: Training a Logistic Regression model to distinguish between intent labels.
-Evaluation: Utilizing cross-validation and accuracy metrics to ensure model reliability.
+*Data Preparation: Loading datasets (website_traffic.csv, test_data.csv) using Pandas.
+*Preprocessing: Lowercasing, tokenization, and removing non-essential stopwords while preserving signal words like "buy" or "price".
+*Vectorization: Transforming cleaned text into feature matrices using TfidfVectorizer.
+*Classification: Training a Logistic Regression model to distinguish between intent labels.
+*Evaluation: Utilizing cross-validation and accuracy metrics to ensure model reliability.
